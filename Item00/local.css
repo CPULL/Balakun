@@ -1,0 +1,37 @@
+.order0 { z-index: 10; }
+.order1 { z-index: 11; }
+.order2 { z-index: 12; }
+.order3 { z-index: 13; }
+.order4 { z-index: 14; }
+.order5 { z-index: 15; }
+.order6 { z-index: 16; }
+.order7 { z-index: 17; }
+.order8 { z-index: 18; }
+.order9 { z-index: 19; }
+
+.imgHands { 
+	background-image: url("imgs/Hands.png");
+	background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+.imgHands:hover { 
+	background-image: url("imgs/Hands_Hover.png");
+	background-size: cover;
+  transition: background-image 0.1s ease-in-out;
+}
+
+.popup {
+	display: flex;
+	flex-direction: row;
+	z-index: 1000;
+	position: absolute;
+	color: white;
+	background-color: rgba(12, 15, 13, 200);
+	padding: 0.5em 1em;
+	border-radius: 1em;
+	font-size: 1.5em;
+}
+.popupTxt {
+	color: white;
+	font-size: 1.5em;
+}
